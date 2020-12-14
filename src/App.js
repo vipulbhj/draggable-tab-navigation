@@ -1,7 +1,17 @@
 import "./App.css";
+import ScrollableTabs from "./Components/ScrollableTabs";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <main className="App">
+      <section className="Demo">
+        <header>
+          <p>Demo Container</p>
+        </header>
+        <ScrollableTabs />
+      </section>
+    </main>
+  );
 }
 
 export default App;

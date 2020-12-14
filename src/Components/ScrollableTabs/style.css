@@ -1,0 +1,29 @@
+nav {
+  width: 100%;
+  display: flex;
+  background-color: #eee;
+  list-style: none;
+}
+
+nav div {
+  width: calc(100% - 60px);
+  overflow: hidden;
+  overflow-x: scroll;  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  list-style: none;
+  white-space: nowrap;
+  background-color: #eee;
+}
+
+nav div::-webkit-scrollbar {
+  display: none;
+}
+
+.chevron {
+  width: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
